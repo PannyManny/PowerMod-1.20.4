@@ -2,6 +2,8 @@ package net.panimal.powermod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.panimal.powermod.item.ModItemGroups;
+import net.panimal.powermod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,5 +14,7 @@ public class PowerMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }
