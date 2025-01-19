@@ -15,6 +15,12 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.POWER)).entries((displayContext, entries) -> {
                         entries.add(ModItems.IRON_FIST);
                         entries.add(ModItems.POWER);
+                        entries.add(ModItems.LASER);
+                        entries.add(ModItems.HAMMER);
+                        entries.add(ModItems.METEOR);
+                        entries.add(ModItems.BLACK_HOLE);
+                        entries.add(ModItems.CORE);
+                        entries.add(ModItems.GALAXY);
 
                     }).build());
 

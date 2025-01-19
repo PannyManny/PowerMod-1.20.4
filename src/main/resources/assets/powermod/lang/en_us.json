@@ -1,0 +1,12 @@
+{
+  "item.powermod.iron_fist": "Iron Fist",
+  "item.powermod.power": "Power",
+  "item.powermod.laser": "Blasting Laser",
+  "item.powermod.hammer": "Worldbreaking Hammer",
+  "item.powermod.meteor": "Meteor Fist",
+  "item.powermod.black_hole": "Black Hole Fist",
+  "item.powermod.core": "Devastation Core",
+  "item.powermod.galaxy": "Universe Destroyer",
+
+  "itemgroup.power": "Power Mod"
+}
